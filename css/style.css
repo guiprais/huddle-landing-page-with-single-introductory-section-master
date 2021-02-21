@@ -1,0 +1,89 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--violet) url(../images/bg-desktop.svg) no-repeat;
+  color: var(--white);
+}
+
+nav {
+  padding: 60px;
+}
+
+.nav-logo img {
+  width: 210px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0px 3em;
+  width: 35%;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-size: 2.5em;
+  margin-top: -100px;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 1em;
+  letter-spacing: 1px;
+
+  padding: 1em 0;
+}
+
+.btn {
+  display: flex;
+  font-family: 'Poppins';
+
+  color: var(--violet);
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 60px;
+
+  border-radius: 30px;
+
+  background-color: var(--white);
+
+  box-shadow: 0px 0px 10px black;
+}
+
+.btn:hover {
+  background-color: var(--soft-magenta);
+  color: white;
+
+  transition: ease 0.3s;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
