@@ -23,7 +23,7 @@ nav {
   width: 210px;
 }
 
-.container {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
